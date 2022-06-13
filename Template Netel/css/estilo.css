@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #101010;
+}
+
+nav#Links-uteis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+
+}
+
+nav#Links-uteis ul>li {
+    display: inline-block;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+nav#Links-uteis ul>li>a {
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+
+
+}
+
+#banner {
+    height: 350px;
+    background-image: url("../assets/images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1#Texto-banner {
+    color: white;
+    font-size: 2.5rem;
+    background-color: transparent;
+
+}
+
+#Equipe {
+    text-align: center;
+}
+
+h2#Nossa-equipe {
+    color: white;
+    font-size: 2.5rem;
+    background-color: transparent;
+    padding: 25px;
+}
+
+#banners {
+    display: flex;
+    height: 370px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.caixa{
+ width: 30vw;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+ color: white;
+ text-align: center;
+}
+
+p{
+    padding: 25px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    padding: 10px;
+}
+
+.btn-outlined-white {
+    border: 2px solid white;
+    color: white;
+}
+
+.caixa>img {
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.laranja {
+    background-color: #c14000;
+}
+
+.verde {
+    background-color: #009987;
+}
+
+.amarelo {
+    background-color: #ffaa00;
+}
